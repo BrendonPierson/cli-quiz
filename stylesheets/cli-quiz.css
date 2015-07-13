@@ -1,0 +1,21 @@
+body {
+	font-family: Arial;
+
+}
+
+#firstSection,
+#secondSection {
+	font-family: Tahoma;
+}
+
+span.highlight {
+	background-color: #369;
+}
+
+#mainBody {
+	width: 65%;
+}
+
+#sidebar {
+	width: 30%;
+}
