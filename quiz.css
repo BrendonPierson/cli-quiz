@@ -1,6 +1,11 @@
 body {
 	font-family: Arial;
+	margin: 0;
+}
 
+div, p {
+	margin: 0;
+	padding: 0;
 }
 
 #firstSection,
@@ -8,14 +13,20 @@ body {
 	font-family: Tahoma;
 }
 
-span.highlight {
+.highlight {
 	background-color: #369;
 }
 
 #mainBody {
 	width: 65%;
+	float: left;
 }
 
 #sidebar {
 	width: 30%;
+	float: right;
+}
+
+footer {
+	clear:both;
 }
